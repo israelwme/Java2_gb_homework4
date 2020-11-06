@@ -59,7 +59,5 @@ public class Chat extends JFrame {
     private void sendMessage(String message) {
         messagesArea.append(message + "\n");
         messageField.setText("");
-
-
     }
 }
